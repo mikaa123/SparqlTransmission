@@ -1,19 +1,33 @@
 require 'SparqlTransmission'
 
+# Creates a SparqlTransmission and initialize the object on the SPARQL end-point URL
 st = SparqlTransmission.new("http://dbpedia.org/sparql")
 
-#sq.results
-
-#p sq.has_result?
-
+# Creates the SPARQL query
 st.query = %[
-  SELECT ?person ?city
+  SELECT ?subject ?predicat ?object
   WHERE 
   { 
-    ?person <http://dbpedia.org/ontology/birthPlace> ?city
+    ?subject ?predicat ?object
   }
 ]
 
-st.execute_query.results[1..5].each {|res| puts res.collect { |r| r * ": "} * " | "}
+# To execute the query, do
+st.execute_query
 
-p st.has_result?
+# The results can then be fetched using the result method
+res = st.results
+
+# You can also chain the process, and do the following to view the results
+# line by line, such as
+#
+#   variable1: URI, variable2: URI, ..., variableN: URI
+st.execute_query.results.each do |res|
+ puts res.collect { |r| r * ": "} * ", "
+end
+
+# To get the number of results returned by the query
+puts st.number_of_result
+
+# To get the names of the variables requested
+puts st.requested_variables
