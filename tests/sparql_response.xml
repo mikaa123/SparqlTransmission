@@ -1,0 +1,534 @@
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="subject"/>
+  <variable name="predicat"/>
+  <variable name="object"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-S</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-P</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-O</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-G</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-S</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-P</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-O</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapValue</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-ft</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFText</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-geo</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFText</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-ft</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFText</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-ft-conds</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#array-of-string</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default-iid</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-date-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#multipart-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-date</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-time</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv-iid</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#default</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-time-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-datetime</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-fn</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-fn-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nullable</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-G-col-G</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-S-col-S</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-P-col-P</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-O-col-O</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G-col-G</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-S-col-S</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-P-col-P</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-O-col-O</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-pquad</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapATable</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-pquad</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadMapATable</uri></binding>
+  </result>
+  <result>
+   <binding name="subject"><uri>http://www.openlinksw.com/schemas/virtrdf#DefaultServiceStorage</uri></binding>
+   <binding name="predicat"><uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri></binding>
+   <binding name="object"><uri>http://www.openlinksw.com/schemas/virtrdf#QuadStorage</uri></binding>
+  </result>
+ </results>
+</sparql>
