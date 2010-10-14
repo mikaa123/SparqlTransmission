@@ -23,7 +23,12 @@ res = st.results
 #
 #   variable1: URI, variable2: URI, ..., variableN: URI
 st.execute_query.results.each do |res|
- puts res.collect { |r| r * ": "} * ", "
+  puts res.collect { |r| r * ": "} * ", "
+end
+
+# Same as above, but asynchronous
+st.execute_async_query.results.each do |res|
+  puts res.collect { |r| r * ": "} * ", "
 end
 
 # To get the number of results returned by the query
