@@ -1,6 +1,6 @@
 require 'test/unit'
 require 'net/http'
-require '../SparqlTransmission'
+require_relative '../lib/SparqlTransmission'
 
 class SparqlTransmission_Test < Test::Unit::TestCase
   def setup
@@ -21,7 +21,7 @@ class SparqlTransmission_Test < Test::Unit::TestCase
   def test_parse_request
     sq = SparqlTransmission.new("http://dbpedia.org/sparql")
     res = String.new
-    File.open('sparql_response.xml').each { |line| res += line }
+    File.open('tests/sparql_response.xml').each { |line| res += line }
     result = sq.send(:parse_request, res)
     assert_equal(105, sq.number_of_result, "Wrong number of result")
     assert_equal("subject", result[:variables][0], "Wrong requested variable")
