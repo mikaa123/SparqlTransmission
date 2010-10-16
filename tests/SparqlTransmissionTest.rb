@@ -27,6 +27,9 @@ class SparqlTransmission_Test < Test::Unit::TestCase
     assert_equal("subject", result[:variables][0], "Wrong requested variable")
     assert_equal("http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G", result[:results][0][:subject], "Wrong result")
     assert_raise(ArgumentError, "ArgumentError not raised") { sq.send(:parse_request, 1) }
+    res = String.new
+    File.open('tests/sparql_foaf_response.xml').each { |line| res += line }
+    result = sq.send(:parse_request, res)
   end
   
   def test_fail

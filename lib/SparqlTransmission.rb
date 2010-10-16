@@ -80,7 +80,15 @@ class SparqlTransmission
     unless req.is_a? String
       raise ArgumentError, "The response must be a String"
     end
-    doc = REXML::Document.new(req)
+
+    begin
+      doc = REXML::Document.new(req)
+    rescue
+      # Handle illegal characters here, we are being more permissive over badly
+      # formatted XMLs
+      req.sub!("&", '')
+      retry
+    end
     
     # Getting the list of sparql variables
     res = {:variables => doc.elements.collect('sparql/head/variable') do |element|
