@@ -1,0 +1,44 @@
+h1. SparqlTransmission for Ruby
+
+SparqlTransmission is a ruby library that handles the transmission of your SPARQL query to a SPARQL end-point, such as DBpedia (http://dbpedia.org/sparql), and format the response nicely so you can use it in your code.
+
+h2. Installing
+
+You can install the latest SparqlTransmission gem
+
+<code>gem install SparqlTransmission</code>
+
+h2. How to use
+
+First, create a SparqlTransmission object with the URL of the end-point you'd like to query
+
+<code>
+	require 'SparqlTransmission'
+	st = SparqlTransmission.new('http://dbpedia.org/sparql')
+</code>
+
+Now enter your query
+
+<code>
+st.query = %[
+  SELECT ?subject ?predicat ?object
+  WHERE 
+  { 
+     ?subject ?predicat ?object
+  }
+]
+</code>
+
+You can now iterate over your results and print them
+
+<code>
+st.execute_query.results.each do |res|
+  puts res
+end
+</code>
+
+h2. Contribute
+
+I'd be very happy to hear what you think about the library. Contact me at mikaa123 at gmail.com. Please feel free to fork the project and contribute. :-)
+
+Michael
